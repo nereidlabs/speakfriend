@@ -12,4 +12,8 @@ Place the script whereever you do ya thang and then add it to the crontab like s
 
   @reboot /path/to/speakfriend.sh
   
+On your usb drive create a file called wifi.txt containing the target SSID on the first line and password on the second line.
+
+The script will exit if the file is missing or unusable, or if there is no drive attached.
+
 fin
